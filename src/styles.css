@@ -1,0 +1,8 @@
+.Byakko15 {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  position: relative;
+  margin-left: auto;
+  color: aliceblue;
+}
