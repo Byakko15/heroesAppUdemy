@@ -1,13 +1,12 @@
+import {AuthProvider} from "./auth/context";
 import {AppRouter} from "./router/AppRouter";
 import "./styles.css";
 
 function App() {
   return (
-    <>
-      {/* <small className="Byakko15">[Byakko15]</small> */}
-
+    <AuthProvider>
       <AppRouter />
-    </>
+    </AuthProvider>
   );
 }
 
