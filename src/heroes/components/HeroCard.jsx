@@ -9,7 +9,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const heroUrl = `./${id}.jpg`;
+  const heroUrl = `/heroesAppUdemy/heroesImages/${id}.jpg`;
 
   return (
     <div className="col animate__animated animate__fadeIn">
