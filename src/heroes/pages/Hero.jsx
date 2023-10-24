@@ -16,7 +16,7 @@ export const Hero = () => {
   if (!hero) {
     return <Navigate to="/marvel" />;
   }
-  const heroUrl = `/src/assets/images/heroes/${id}.jpg`;
+  const heroUrl = `/heroes/${id}.jpg`;
   return (
     <div className="row mt-5">
       <div className="col-4">
