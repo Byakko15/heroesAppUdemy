@@ -44,7 +44,12 @@ export const Search = () => {
               onChange={onInputChange}
             />
           </form>
-          <button className="btn btn-outline-primary mt-2">Search</button>
+          <button
+            onClick={onSearchSubmit}
+            className="btn btn-outline-primary mt-2"
+          >
+            Search
+          </button>
         </div>
 
         <div className="col-7">
